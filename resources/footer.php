@@ -20,5 +20,5 @@
     <br>
     <span>Copyright &copy TheMelanieJoy 2017</span>
 </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="/resources/js/jquery.min.js"></script>
+<script src="/resources/js/bootstrap.min.js"></script>

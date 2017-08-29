@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Photography - TheMelanieJoy</title>
     <?php include('../resources/links.php') ?>
 </head>
 <body>
