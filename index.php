@@ -2,10 +2,10 @@
 <html>
 <head>
     <title>TheMelanieJoy</title>
-    <?php include('/resources/links.php') ?>
+    <?php include('resources/links.php') ?>
 </head>
 <body>
-    <?php include('/resources/header.php') ?>
+    <?php include('resources/header.php') ?>
 
     <div id="backgroundimage" class="carousel slide bg-inverse" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -44,6 +44,6 @@
       </a>
     </div>
 
-    <?php include('/resources/footer.php') ?>
+    <?php include('resources/footer.php') ?>
 </body>
 </html>
