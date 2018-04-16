@@ -1,12 +1,3 @@
-<!--
-    TODO
-    Loading placeholders in portfolio
-    Fix footer in home page
-    About me
-    Redesign header
-    Logo?
--->
-
 <!DOCTYPE html>
 <html lang=en>
 <head>
@@ -42,7 +33,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>    
+    </div>  
     <?php include('resources/footer.php') ?>
 </body>
 </html>
