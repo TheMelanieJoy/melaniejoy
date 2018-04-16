@@ -21,10 +21,6 @@
     <?php include('../resources/footer.php') ?>
     <script>
         lazyload_images("../resources/images/digital/");
-        
-        $(function () {
-            $("img.lazyload").lazyload();
-        });
     </script>
 </body>
 </html>

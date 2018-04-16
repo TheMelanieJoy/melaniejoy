@@ -16,7 +16,7 @@ function lazyload_images(dir) {
                 if(isEven) {
                     $(".col-left").append('<div class="thumbnail">\
                                     <a data-toggle="modal" data-target="#' + index + '">\
-                                        <img class="lazy" src="../resources/images/loader.gif" data-src="' + dir + this.href.substr(this.href.lastIndexOf('/') + 1) + '">\
+                                        <img class="lazy" data-src="' + dir + this.href.substr(this.href.lastIndexOf('/') + 1) + '">\
                                     </a>\
                                  </div>\
                                  <div class="modal fade" id="' + index + '" tabindex="-1" role="dialog" aria-labelledby="modalLabelLarge" aria-hidden="true">\
@@ -36,7 +36,7 @@ function lazyload_images(dir) {
                 else {
                     $(".col-right").append('<div class="thumbnail">\
                                     <a data-toggle="modal" data-target="#' + index + '">\
-                                        <img class="lazy" src="../resources/images/loader.gif" data-src="' + dir + this.href.substr(this.href.lastIndexOf('/') + 1) + '">\
+                                        <img class="lazy" data-src="' + dir + this.href.substr(this.href.lastIndexOf('/') + 1) + '">\
                                     </a>\
                                  </div>\
                                  <div class="modal fade" id="' + index + '" tabindex="-1" role="dialog" aria-labelledby="modalLabelLarge" aria-hidden="true">\

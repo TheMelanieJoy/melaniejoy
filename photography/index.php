@@ -48,10 +48,6 @@
     <?php include('../resources/footer.php') ?>
     <script>
         lazyload_images("../resources/images/photography/");
-        
-        $(function () {
-            $("img.lazyload").lazyload();
-        });
     </script>
 </body>
 </html>
