@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col">
                         <h2>Experience</h2>
-                        <div class="experience-timeline">
+                        <!--<div class="experience-timeline">
                             <div class="timeline-event left">
                                 <div class="content">
                                     <p><strong>2017 &ndash; Concordia University</strong></p>
@@ -44,6 +44,30 @@
                                     <p><em>Sales Clerk</em></p>
                                 </div>
                             </div>
+                        </div>-->
+                        <div class="content">
+                            <p><strong>2017 &ndash; Concordia University</strong></p>
+                            <p><em>Web Designer</em></p>
+                        </div>
+                        <div class="content">
+                            <p><strong>2016 &ndash; VMC</strong></p>
+                            <p><em>Quality Assurance</em></p>
+                        </div>
+                        <div class="content">
+                            <p><strong>2016 &ndash; TECSYS</strong></p>
+                            <p><em>Co-op</em></p>
+                        </div>
+                        <div class="content">
+                            <p><strong>2015 &ndash; Boutique Jacob</strong></p>
+                            <p><em>Sales Clerk</em></p>
+                        </div>
+                        
+                        <h2>Websites Created</h2>
+                        <div class="content">
+                            <p><a class="external-links" href="http://library.concordia.ca/learn/">
+                                <i class="fas fa-external-link-alt"></i>
+                                Concordia Library
+                            </a></p>
                         </div>
                     </div>
                     <div class="col">
@@ -60,13 +84,6 @@
                             <p><strong>2008&dash;2013 &ndash; Ecole Secondaire Cavelier-De LaSalle</strong></p>
                             <p><em>IB Programme</em></p>
                         </div>
-                        
-                        <!-- interests:
-                                gaming
-                                art
-                                guitar
-                                photography
-                        -->
                     </div>
                 </div>
             </div>
