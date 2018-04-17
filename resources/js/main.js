@@ -59,7 +59,7 @@ function lazyload_images(dir) {
     });
 }
 
-jQuery(document).ready(function ($) {
+$(window).on('load', function (e) {
     $(".col-right img.lazy").show().lazy({ 
         //placeholder: "../resources/images/handtinywhite.gif"
         placeholder: "data:image/gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
