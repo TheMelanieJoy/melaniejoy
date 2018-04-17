@@ -59,6 +59,22 @@ function lazyload_images(dir) {
     });
 }
 
-$(function() {
-        $('.lazy').lazy();
+jQuery(document).ready(function ($) {
+    $(".col-right img.lazy").show().lazy({ 
+        //placeholder: "../resources/images/handtinywhite.gif"
+        placeholder: "data:image/gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
+        effect: "fadeIn",
+        effectTime: 2000,
+        threshold: 0,
+        container: $(".col-right")
     });
+    
+    $(".col-left img.lazy").show().lazy({ 
+        //placeholder: "../resources/images/handtinywhite.gif"
+        placeholder: "data:image/gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
+        effect: "fadeIn",
+        effectTime: 2000,
+        threshold: 0,
+        container: $(".col-left")
+    });
+});

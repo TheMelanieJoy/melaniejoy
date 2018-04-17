@@ -16,7 +16,7 @@
                     <br>
                     <p>Outside of computer science, I have other hobbies including music, digital art, photography, and video games. Playing the guitar and drawing have been some of the best ways for me to pass time and uplift my mood and have thus become passions. And so, I founded this website, whose purpose is to present both my web development and artistic abilities.</p>
                 </div>
-                <div class="row">
+                <div class="row" style="text-align:center;">
                     <div class="col">
                         <h2>Experience</h2>
                         <!--<div class="experience-timeline">
